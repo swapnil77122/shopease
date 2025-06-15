@@ -14,7 +14,16 @@ const Cart = () => {
       <h2 className="text-3xl font-bold text-blue-700 mb-6">Your Cart</h2>
 
       {cartItems.length === 0 ? (
-        <p className="text-gray-600">Your cart is empty.</p>
+        <div className="text-center text-gray-600">
+          <p className="text-lg mb-4">🛒 Your cart is feeling a bit lonely...</p>
+          <p className="mb-6">Start exploring and add something you love!</p>
+          <button
+            onClick={() => navigate('/products')}
+            className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700"
+          >
+            Browse Products
+          </button>
+        </div>
       ) : (
         <>
           <ul className="space-y-4">

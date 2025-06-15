@@ -17,17 +17,17 @@ const Home = () => {
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition transform hover:-translate-y-1">
-            <img src="/images/earbuds.jpg" alt="Earbuds" className="rounded-lg h-40 mx-auto mb-4 object-cover" />
+            <img src="/images/earbuds.jpeg" alt="Earbuds" className="rounded-lg h-40 mx-auto mb-4 object-cover" />
             <h2 className="text-xl font-semibold mb-2">Top Audio Gear</h2>
             <p className="text-gray-600">Experience premium sound with our wireless earbuds and speakers.</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition transform hover:-translate-y-1">
-            <img src="/images/smartwatch.jpg" alt="Smartwatch" className="rounded-lg h-40 mx-auto mb-4 object-cover" />
+            <img src="/images/smartwatch.jpeg" alt="Smartwatch" className="rounded-lg h-40 mx-auto mb-4 object-cover" />
             <h2 className="text-xl font-semibold mb-2">Smart Wearables</h2>
             <p className="text-gray-600">Stay fit, get notifications, and track your health with our smartwatches.</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition transform hover:-translate-y-1">
-            <img src="/images/charger.jpg" alt="Charger" className="rounded-lg h-40 mx-auto mb-4 object-cover" />
+            <img src="/images/charger.jpeg" alt="Charger" className="rounded-lg h-40 mx-auto mb-4 object-cover" />
             <h2 className="text-xl font-semibold mb-2">Fast Charging</h2>
             <p className="text-gray-600">Need speed? Our USB-C chargers get your device powered fast and safe.</p>
           </div>
