@@ -3,7 +3,9 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="bg-white shadow p-4 flex justify-between items-center">
-      <h1 className="text-xl font-bold text-blue-600">ShopEase</h1>
+      <NavLink to="/" className="text-xl font-bold text-blue-600 hover:underline">
+        ShopEase
+      </NavLink>
       <div className="space-x-2">
         <NavLink
           to="/"
