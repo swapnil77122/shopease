@@ -12,7 +12,7 @@ const Invoices = () => {
   const downloadInvoice = (order) => {
     const doc = new jsPDF();
     doc.setFontSize(16);
-    doc.text("🧾 TechNova Pvt. Ltd.", 20, 20);
+    doc.text(" TechNova Pvt. Ltd.", 20, 20);
     doc.setFontSize(10);
     doc.text("GSTIN: 29ABCDE1234F2Z5", 20, 26);
     doc.text("123, Innovation Park, Bengaluru, India", 20, 32);
@@ -49,7 +49,7 @@ const Invoices = () => {
     y += 15;
 
     doc.setFontSize(11);
-    doc.text("Thank you for shopping with TechNova! 😊", 20, y);
+    doc.text("Thank you for shopping with TechNova! ", 20, y);
 
     doc.save(`Invoice_${order.id}.pdf`);
   };
