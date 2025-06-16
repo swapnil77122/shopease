@@ -53,7 +53,7 @@ export const generateInvoicePDF = (invoice) => {
       index + 1,
       item.name,
       item.quantity,
-      `₹${item.price}`,
+      `₹ ${item.price}`,
       `₹${item.price * item.quantity}`
     ]);
 
